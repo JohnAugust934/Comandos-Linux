@@ -1,0 +1,72 @@
+COMANDOS LINUX:
+
+PWD -> Mostra a localidade, onde estou
+
+uname -a -> Emite todas as informações
+
+touch -> Cria arquivo
+
+ls -> Listagem de arquivo
+
+echo -> Pega alguma informação da tela e joga pra um lugar
+
+cat -> Visualiza um arquivo
+
+mkdir -> Cria uma pasta
+
+cd -> Entrar na pasta
+
+cp -> Copia uma pasta/arquivo
+
+rm -> Apaga arquivos
+
+rm -r -> Apaga recursivamente
+
+mv -> Para mover ou renomear arquivos
+
+more -> Faz a mesma coisa que o cat, só que por partes
+
+less -> Permite que você ande para cima e para baixo na pagina
+
+Diretorio ETC -> Todas as configurações do sistema está dentro dele, menos a do root
+
+/etc/shadow -> Tem todas as senhas
+
+/bin -> Utilitarios
+
+chmod -> Muda permissão do arquivo
+	1 -> X 
+	2 -> W
+	3 -> WX
+	4 -> R
+	5 -> RX
+	6 -> RW
+	7 -> RWX
+
+chown -> Muda os proprietarios
+
+man -> Manual
+
+adduser -> Novo usuario
+
+
+COMANDOS DEBIAN 9.5
+
+
+apt-get update -> Baixa indices
+
+apt-get search gcc -> Consulta o cache do APT, porque é mais rapido
+
+NANO -> Editor de texto
+
+./ -> Executa o programa/arquivo
+
+#!/bin/bash -> bash vai processar o conteudo
+
+lspci -> Mostra dispositivos instalados
+
+lsmod -> Mostra os drivers
+
+TOP -> Gerenciador de tarefas/processos
+	U -> Seleciona um usuario
+	K -> elimina o processo
